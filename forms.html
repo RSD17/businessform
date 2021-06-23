@@ -1,0 +1,97 @@
+<html>
+	<head>
+
+		<title>Forms</title>
+
+	</head>
+
+	<style>
+		
+		form {
+
+			background-color: aqua;
+			color: blue;
+
+		}
+
+		#submit {
+
+			background-color: green;
+			color: lime;
+
+		}
+
+		input, textarea {
+
+			background-color: rgba(255, 255, 0, 0.15);
+			color: darkblue;
+
+		}
+
+		img {
+
+			display: inline;
+			
+		}
+
+
+
+	</style>
+
+	<body>
+
+		<img src="businesslogo.jpg" width="175px" height="175px">
+
+
+		<form>
+
+			<label for="user_name">User ID</label>
+
+			<br>
+
+			<input type="text" placeholder="User Name" id="user_name">
+
+			<br>
+			<br>
+
+			<label for="password">Password</label>
+
+			<br>
+
+			<input type="password" placeholder="Your Password" id="password">
+
+			<br>
+			<br>
+
+			<input type="week">
+
+			<br>
+			<br>
+
+			<label for="age">Choose age group: </label>
+
+			<br>
+
+			<select id="age" name="age" size="2" multiple>
+
+				<option value="20-30">20-30</option>
+				<option value="30-40">30-40</option>
+				<option value="40-50">40-50</option>
+
+			</select>
+
+			<br>
+			<br>
+
+			<textarea name="message" rows="10" cols="30">I love cricket a lot. I have been playing cricket ever since I was 2 years old. All I need for playing tournaments is a birth cetificate or an aadhar card.</textarea>
+
+		
+			<br>
+			<br>
+
+			<input type="submit" value="submit" id="submit">
+
+		</form>
+
+	</body>
+</html>
